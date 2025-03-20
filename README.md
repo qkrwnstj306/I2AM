@@ -2,9 +2,6 @@
 This repository is the official implementation of [I2AM](https://openreview.net/forum?id=bBNUiErs26)
 
 
-[[arXiv Paper](https://arxiv.org/abs/2312.01725)]&nbsp;
-[[Project Page](https://rlawjdghek.github.io/StableVITON/)]&nbsp;
-
 ![teaser](assets/intro.jpg)&nbsp;
 
 
@@ -43,7 +40,7 @@ You can download the VITON-HD dataset from [here](https://github.com/shadow2496/
 
 - Reference-to-Generated attribution maps: `--generated_image True --controlnet False --new_attention_map False`
 - Generated-to-Reference attribution maps: `--generated_image False --controlnet True --new_attention_map False`
-- Specific-Reference attribution maps ($5-$th layer): `--generated_image False --controlnet True --new_attention_map True`
+- Specific-Reference attribution maps (5-th layer): `--generated_image False --controlnet True --new_attention_map True`
 - If you want to Time-, Head-Level attribution maps: `--per_time_step True` or `--per_attention_head True`
 ```bash
 #### paired
